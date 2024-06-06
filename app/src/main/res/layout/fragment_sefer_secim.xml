@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentHome">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="925dp" />
+
+    <ScrollView
+        android:layout_width="1120dp"
+        android:layout_height="800dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3500dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="KADIKOY-BEşIKTAş"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kadıköy Iskele - Besiktas Iskele "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn1secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+                 </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="üSKüDAR-BESIKTAş"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Üslküdar Iskele - Besiktas Iskele "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn2secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="KADIKOY-KABATAş"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kadıköy Iskele - Kabataş Iskele "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn3secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_23"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="EMINÖNÜ-BEŞIKTAŞ-ORTAKÖY"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail23"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Eminönü-Beşiktaş-Ortaköy Iskeleleri "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn23secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_24"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="KABATAŞ-ÇENGELKÖY"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail24"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kabataş-Çengelköy Iskeleleri "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn24secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_25"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="DENTUR ADALAR"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail25"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Beşiktaş-Kabataş-Ada Iskeleleri "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn25secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="ÜSKÜDAR-KABATAş"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+
+            <FrameLayout
+                android:id="@+id/seferdetail4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Üsküdar Iskele - Kabataş Iskele "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn4secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="3NO HİSAR"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sabah Seferi:"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Üsküdar/Beylerbeyi iskeleleri yok"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn5secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="130dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sabah Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="210dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Akşam Seferi:"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="260dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kandilli iskelesi yok"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn6secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="320dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Aksam Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="6No Ortabogaz"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail7"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Normal Sefer"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn7secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sabah Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Pazar Tarifesi Eksik Iskeleler: "
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="190dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Cengelkoy/Arnavutkoy/Kandilli/Istınye"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:id="@+id/btn8secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="250dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Pazar Seferini Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="7NO Küçüksu"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail9"
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/caviarbold"
+                android:text="Sabah Seferi"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn9secim"
+                android:layout_width="540dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="550dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/button_design2"
+                android:textColor="@color/dentur_orange3"
+                android:fontFamily="@font/caviarbold"
+                android:text="Sabah Seferını Sec"
+                android:textSize="30dp"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/caviarbold"
+                android:text="Akşam Seferi Ek Iskeleler"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/caviarbold"
+                android:text="Eminönü/Beylerbeyi/Cengel Iskele"
+                android:textSize="30dp" />
+            <Button
+                android:id="@+id/btn10secim"
+                android:layout_width="540dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="550dp"
+                android:layout_marginTop="270dp"
+                android:background="@drawable/button_design2"
+                android:textColor="@color/dentur_orange3"
+                android:fontFamily="@font/caviarbold"
+                android:text="Aksam Seferını Sec"
+                android:textSize="30dp"
+                app:backgroundTint="@null" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="8NO Sarıyer"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail11"
+                android:layout_width="match_parent"
+                android:layout_height="880dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Haftaiçi Sabah Seferi"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn11secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="haftaıcı Sabah SEferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="150dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Haftaiçi Akşam Seferi Ek Iskeleler:"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ortakoy Iskele"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn12secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="250dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Haftaıçı Aksam Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="340dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Cumartesi Sabah Seferi Ek Iskeleler:"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="390dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Beylerbeyi Iskele"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn13secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="440dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Cumartesi Sabah Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="530dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Cumartesi Akşam Seferi Ek Iskeleler:"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="580dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Cengelkoy Iskele"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn14secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="630dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Cumartesi Akşam Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="710dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Pazar Seferi Ek Iskeleler:"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="760dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kanlıca Iskele"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn15secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="810dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Pazar Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_16"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="9NO Beykoz"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail16"
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sabah Seferi"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn16secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sabah Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Akşam Seferi Ek Iskele"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="210dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kuzguncuk Iskele"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/btn17secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="260dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Aksam Seferını Sec"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_18"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="14NO Şehır hatları adalar"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail18"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Beşiktaş-Kadıköy-Ada Iskeleleri "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn18secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_19"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="20No Beykoz"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail19"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Beykoz Seferindeki Bütün Iskeleler "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn19secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_20"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="21No Anadolu Kavağı"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail20"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Kavak Seferindeki Bütün Iskeleler "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn20secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_21"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="23No Beykoz"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail21"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Beykoz Seferindeki Bütün Iskeleler "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn21secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_22"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="24No Sarıyer"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <FrameLayout
+                android:id="@+id/seferdetail22"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sarıyer Seferindeki Bütün Iskeleler "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn22secim"
+                    android:layout_width="540dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="550dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="SeferI SEÇ"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+            </FrameLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text=""
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/frame_background3"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

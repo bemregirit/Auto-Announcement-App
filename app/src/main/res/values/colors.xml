@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#4EFF00</color>
+    <color name="dentur_orange">#ED7322</color>
+    <color name="dentur_blue">#1F4189</color>
+    <color name="dentur_orange2">#FF9209</color>
+    <color name="dentur_orange3">#FECF98</color>
+
+
+</resources>

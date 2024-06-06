@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentSettings">
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="922dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="1120dp"
+        android:layout_height="835dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="1120dp"
+            android:layout_height="900dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="420dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Anons Ayarları "
+                    android:textColor="@color/dentur_orange"
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="110dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Anonslar Arası Süre: "
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/text_anonsTime"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="415dp"
+                    android:layout_marginTop="110dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:gravity="center"
+                    android:text="---"
+                    android:textSize="30dp" />
+
+
+                <Button
+                    android:id="@+id/btn_minus1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="350dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/button_design3"
+                    android:drawableStart="@drawable/icon_minus"
+                    android:drawableTint="@color/dentur_orange3"
+                    android:paddingLeft="-5dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/btn_plus1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="520dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/button_design3"
+                    android:drawableStart="@drawable/icon_plus"
+                    android:drawableTint="@color/dentur_orange3"
+                    android:paddingLeft="-5dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Anons Tekrar Sayısı:"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/text_anonsCount"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="425dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:gravity="center"
+                    android:text="---"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn_minus2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="350dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/button_design3"
+                    android:drawableStart="@drawable/icon_minus"
+                    android:paddingLeft="-5dp"
+                    android:tint="@color/dentur_orange3" />
+
+                <Button
+                    android:id="@+id/btn_plus2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="520dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/button_design3"
+                    android:drawableStart="@drawable/icon_plus"
+                    android:drawableTint="@color/dentur_orange3"
+                    android:paddingLeft="-5dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="380dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Uygulama Ayarları "
+                    android:textColor="@color/dentur_orange"
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/btnVizMap"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="435dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/button_design3"
+                    android:fontFamily="@font/caviarbold"
+                    android:textColor="@color/dentur_orange3"
+                    android:text="EKLE"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="110dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ana Ekranda Harita Ekranı: "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnVizLoc"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="435dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/button_design3"
+                    android:fontFamily="@font/caviarbold"
+                    android:textColor="@color/dentur_orange3"
+                    android:text="EKLE"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ana Ekranda Konum Bilgisi: "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnVizVol"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="435dp"
+                    android:layout_marginTop="280dp"
+                    android:background="@drawable/button_design3"
+                    android:fontFamily="@font/caviarbold"
+                    android:textColor="@color/dentur_orange3"
+                    android:text="EKLE"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="290dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ana Ekranda Ses Düzeyi: "
+                    android:textSize="30dp" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_announcement"
+                    app:tint="@color/dentur_orange"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="100dp"
+                    android:scaleY="1.2"
+                    android:scaleX="1.2"/>
+
+                <SeekBar
+                    android:id="@+id/volBar"
+                    android:layout_width="1000dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="90dp"
+                    android:paddingTop="2dp"
+                    android:progressTint="@color/dentur_orange"
+                    android:thumb="@drawable/thumb"
+                    android:layout_centerInParent="true"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="450dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ses Ayarları "
+                    android:textColor="@color/dentur_orange"
+                    android:textSize="40dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

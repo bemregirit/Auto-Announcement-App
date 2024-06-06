@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentIskAnons">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="925dp" />
+
+    <ScrollView
+        android:layout_width="1120dp"
+        android:layout_height="923dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="BeşIktaş Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="üsküdar Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kabataş Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"
+                />
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kadıköy Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="eminönü Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kınalıada Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Burgazada Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Heybeliada Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Büyükada Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Anadolu Hısarı Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kandıllı Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_12"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kuzguncuk Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_13"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Beylerbeyı Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_14"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Çengelköy Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_15"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Küçüksu Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_16"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ortaköy Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_17"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Emirgan Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_18"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="İstinye Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_19"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Sarıyer Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_20"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kanlıca Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_21"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Paşabahçe Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_22"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Beykoz Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_23"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Çubuklu Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_24"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Anadolu Kavağı Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_25"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Arnavutköy Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_26"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Büyükdere Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_27"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Rumelı Kavağı Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+            <Button
+                android:id="@+id/btn_28"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Bebek Iskele"
+                android:textSize="34sp"
+                android:textColor="@color/dentur_orange3"
+                android:background="@drawable/button_design2"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/caviarbold"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

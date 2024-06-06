@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentHome">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="925dp" />
+
+    <ScrollView
+        android:layout_width="1140dp"
+        android:layout_height="900dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="1140dp"
+            android:layout_height="900dp"
+            android:orientation="vertical">
+
+
+
+            <org.osmdroid.views.MapView
+                android:id="@+id/frameMap"
+                android:layout_width="match_parent"
+                android:layout_height="700dp">
+
+            </org.osmdroid.views.MapView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Anons Sistemi: "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/text_anonsState_bool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Devrede Değil "
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/text_anonsState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="$hataMesajı"
+                    android:textSize="30dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameVol"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ses Düzeyi Ayarı: "
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn_mute"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="850dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sessize Al"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+                <SeekBar
+                    android:id="@+id/volBar"
+                    android:layout_width="1025dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:paddingTop="2dp"
+                    android:progressTint="@color/dentur_orange"
+                    android:thumb="@drawable/thumb"
+                    android:layout_centerInParent="true"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Seçili Sefer : "
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/text_sefer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sefer Seçilmedi"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn_seferSecim"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="850dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Sefer Seç"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Otomatik Anonslar"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/otoAnonsText"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="75dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="KAPALI"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btn_otoAnons"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="850dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/button_design2"
+                    android:textColor="@color/dentur_orange3"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Ayarla"
+                    android:textSize="30dp"
+                    app:backgroundTint="@null" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameLoc"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1">
+
+                <TextView
+                    android:id="@+id/textLat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="75dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Longitude :"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textLng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Latitude    :"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textLng_val"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="75dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="---"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textLat_val"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="---"
+                    android:textSize="30dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background3">
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

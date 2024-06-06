@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentGemiAnons">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="101dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintGuide_begin="925dp"
+        />
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="1140dp"
+        android:layout_height="900dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1" >
+                <FrameLayout
+                    android:id="@+id/ann_passExit"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="550dp"
+                    android:layout_height="230dp"
+                    android:background="@drawable/frame_background5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/caviarbold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="90dp"
+                        android:textColor="@color/dentur_orange3"
+                        android:text="YOLCU\nTAHLIYE"
+                        android:textSize="45dp" />
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="40dp"
+                        android:tint="@color/dentur_orange3"
+                        app:srcCompat="@drawable/passenger_exit" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/ann_emergExit"
+                    android:layout_marginLeft="580dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="550dp"
+                    android:layout_height="230dp"
+                    android:background="@drawable/frame_background5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/caviarbold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="130dp"
+                        android:textColor="@color/dentur_orange3"
+                        android:text="ACIL\nÇIKIŞ"
+                        android:textSize="45dp" />
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="40dp"
+                        android:tint="@color/dentur_orange3"
+                        app:srcCompat="@drawable/emergency_exit" />
+
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1" >
+
+                <FrameLayout
+                    android:id="@+id/ann_noSmoke"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="550dp"
+                    android:layout_height="230dp"
+                    android:background="@drawable/frame_background5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/caviarbold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="90dp"
+                        android:textColor="@color/dentur_orange3"
+                        android:text=" SIGARA\nANONSU"
+                        android:textSize="45dp" />
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="40dp"
+                        android:tint="@color/dentur_orange3"
+                        app:srcCompat="@drawable/no_smoking" />
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/frame_background1" >
+
+
+
+
+
+
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
